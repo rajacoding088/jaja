@@ -1,0 +1,16 @@
+FOLDER INI: assets/boxing/
+
+Taruh 240 frame asli hero scroll-animation di sini, dengan nama file persis:
+
+  frame-0001.jpg
+  frame-0002.jpg
+  frame-0003.jpg
+  ...
+  frame-0240.jpg
+
+(4 digit angka, berurutan, format .jpg)
+
+Selama folder ini kosong, hero otomatis memakai fallback gradient warna ember
+supaya tampilan TIDAK blank/putih. Begitu 240 frame ditaruh dengan nama yang
+persis seperti di atas, animasi scroll canvas akan otomatis aktif — tidak
+perlu ubah kode apa pun.
